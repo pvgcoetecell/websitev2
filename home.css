@@ -542,11 +542,13 @@ body {
 .last_container2_sub2 p {
   max-width: 250px;
   font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 .last_container2_sub3 p {
   max-width: 250px;
   font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 .last_container2_sub1 {
   padding-left: 200px;
