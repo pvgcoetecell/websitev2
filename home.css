@@ -32,6 +32,16 @@ body {
   font-weight: 400;
 }
 
+.navbar_container ul li a {
+  list-style: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .navbar_container ul li:hover {
   cursor: pointer;
   background: rgb(37, 37, 37);
@@ -71,16 +81,17 @@ body {
   color: rgb(255, 255, 255);
   font-family: "Lato", sans-serif;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
 }
 
 .container1_txt h3 {
   max-width: 600px;
   color: rgb(255, 255, 255);
-  font-family: "Lato", sans-serif;
-  letter-spacing: 1px;
+
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
 }
 
 .container1_txt button {
@@ -314,18 +325,28 @@ body {
 }
 
 .innerbox1 h1 {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
   margin-left: 15px;
 }
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+/* button:hover {
+  font-family: "Poppins", sans-serif;
+  background-color: saddlebrown;
+  color: #2374bf;
+} */
 .innerbox1_container_txt p {
-  font-size: 15px;
+  font-size: 11px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-weight: lighter;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .innerbox1_container_txt {
@@ -342,6 +363,8 @@ body {
   color: white;
   position: relative;
   cursor: pointer;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
 }
 
 .events {
@@ -358,6 +381,7 @@ body {
   height: 70vh;
   border-radius: 20px;
   background: #501150;
+  background: #2374bf;
 }
 
 .events_card_container2 {
@@ -375,7 +399,9 @@ body {
 .events_card_container1 h1 {
   margin-left: 55px;
   color: white;
-  font-weight: 300;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .events_card_container1 button {
@@ -401,38 +427,42 @@ body {
   max-width: 350px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
   position: relative;
   margin-top: -10px;
+  font-family: "Poppins", sans-serif;
 }
 .events_card_container3 h1 {
   max-width: 350px;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .events_card_container4 h4 {
   max-width: 350px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
   position: relative;
   margin-top: -10px;
+  font-family: "Poppins", sans-serif;
 }
 .events_card_container4 h1 {
   max-width: 350px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .events_card_container4 h4 {
   max-width: 350px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .events_card_container3 button {
@@ -440,6 +470,8 @@ body {
   border: none;
   color: white;
   font-size: 17px;
+
+  width: fit-content;
 }
 
 .events_card_container4 button {
