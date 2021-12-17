@@ -1,7 +1,7 @@
 body {
   justify-content: center;
   display: flex;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(10, 10, 10);
   flex-direction: column;
   align-items: center;
 }
@@ -14,17 +14,18 @@ body {
   grid-template-columns: 280px 280px 280px;
   grid-row-gap: 50px;
   grid-column-gap: 30px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .grid2 {
   display: grid;
   grid-template-rows: 150px;
-  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px 150px;
   grid-row-gap: 50px;
   grid-column-gap: 30px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   padding-bottom: 100px;
+  /* background-color: yellow; */
 }
 
 .grid2 h1 {
@@ -34,8 +35,31 @@ body {
   font-weight: 400;
 }
 
+/* .grid2_box1:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.grid2_box2:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.grid2_box3:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.grid2_box4:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.grid2_box5:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+} */
 .grid2_box1 {
-  background-color: rgb(39, 36, 36);
   border-radius: 20px;
   justify-content: center;
   align-items: center;
@@ -43,7 +67,6 @@ body {
   flex-direction: column;
 }
 .grid2_box2 {
-  background-color: rgb(39, 36, 36);
   border-radius: 20px;
   justify-content: center;
   align-items: center;
@@ -51,7 +74,6 @@ body {
   flex-direction: column;
 }
 .grid2_box3 {
-  background-color: rgb(39, 36, 36);
   border-radius: 20px;
   justify-content: center;
   align-items: center;
@@ -59,7 +81,6 @@ body {
   flex-direction: column;
 }
 .grid2_box4 {
-  background-color: rgb(39, 36, 36);
   border-radius: 20px;
   justify-content: center;
   align-items: center;
@@ -68,6 +89,14 @@ body {
 }
 
 .grid2_box5 {
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid2 a {
   background-color: rgb(39, 36, 36);
   border-radius: 20px;
   justify-content: center;
@@ -204,4 +233,79 @@ body {
   height: 25px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.teams_heading h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.teams_heading {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.box1:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box2:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box3:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box4:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box5:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box6:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box7:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box8:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.box9:hover {
+  background-color: rgb(62, 62, 238);
+  cursor: pointer;
+}
+
+.grid2 h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.grid2 a {
+  text-decoration: none;
+}
+
+.grid2 a:hover {
+  text-decoration: none;
+  background-color: rgb(62, 62, 238);
+}
+
+.grid2 a {
+  background-color: rgb(51, 49, 49);
 }
