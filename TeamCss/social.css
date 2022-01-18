@@ -86,29 +86,29 @@ body {
 }
 
 /* .grid2_box1:hover {
-  background-color: rgb(62, 62, 238);
-  cursor: pointer;
-}
-
-.grid2_box2:hover {
-  background-color: rgb(62, 62, 238);
-  cursor: pointer;
-}
-
-.grid2_box3:hover {
-  background-color: rgb(62, 62, 238);
-  cursor: pointer;
-}
-
-.grid2_box4:hover {
-  background-color: rgb(62, 62, 238);
-  cursor: pointer;
-}
-
-.grid2_box5:hover {
-  background-color: rgb(62, 62, 238);
-  cursor: pointer;
-} */
+    background-color: rgb(62, 62, 238);
+    cursor: pointer;
+  }
+  
+  .grid2_box2:hover {
+    background-color: rgb(62, 62, 238);
+    cursor: pointer;
+  }
+  
+  .grid2_box3:hover {
+    background-color: rgb(62, 62, 238);
+    cursor: pointer;
+  }
+  
+  .grid2_box4:hover {
+    background-color: rgb(62, 62, 238);
+    cursor: pointer;
+  }
+  
+  .grid2_box5:hover {
+    background-color: rgb(62, 62, 238);
+    cursor: pointer;
+  } */
 .grid2_box1 {
   border-radius: 20px;
   justify-content: center;
@@ -467,6 +467,7 @@ body {
   width: 100%;
 
   background: #2374bf;
+  margin-top: 50px;
 }
 
 .footer_container2_main {
