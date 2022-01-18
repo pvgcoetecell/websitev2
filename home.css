@@ -1,7 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #0a0a0a;
+  background-color: #070707;
   overflow-x: hidden;
 }
 
@@ -13,8 +13,8 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  background-color: #0a0a0a;
-  /* border-bottom: 1px solid rgb(43, 41, 41); */
+  background-color: #070707;
+  border-bottom: 1px solid rgb(43, 41, 41);
 }
 
 .navbar_container ul {
