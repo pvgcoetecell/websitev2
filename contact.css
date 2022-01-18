@@ -84,10 +84,12 @@ body {
   margin-top: 20px;
 }
 .button button {
+  width: 230px;
   padding: 10px;
   border-radius: 10px;
   outline: none;
   border: none;
+  border-radius: 20px;
   background-color: #006aff;
   color: #ffff;
   font-family: "Poppins", sans-serif;
