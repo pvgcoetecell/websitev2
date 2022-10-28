@@ -546,6 +546,16 @@
     </div>
   </section>
 
+ if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+          backdrop[i].addEventListener("click", function () {
+            for (var j = 0; j < menu.length; j++) {
+              menu[j].classList.toggle("hidden");
+            }
+          });
+        }
+      }
+    });
 
   <footer class="text-gray-400 bg-black body-font">
     <div
