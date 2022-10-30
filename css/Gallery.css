@@ -1,0 +1,199 @@
+.main {
+    background-color: #0a0a0a;
+  }
+  .body {
+    background-color: #0a0a0a;
+  }
+  
+  /* This is navbar code  */
+  
+  .navbar_container h1 {
+    color: white;
+  }
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #0a0a0a;
+    /* border-bottom: 1px solid rgb(43, 41, 41); */
+  }
+  .navbar_container ul {
+    display: flex;
+    padding-right: 100px;
+  }
+  .navbar_container ul li {
+    margin-right: 50px;
+    list-style: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .navbar_container ul li {
+    margin-right: 50px;
+    list-style: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .navbar_container ul li:hover {
+    cursor: pointer;
+    background: rgb(37, 37, 37);
+    border-radius: 15px;
+  }
+  .navbar_container img {
+    width: 80px;
+    margin-left: 50px;
+  }
+  
+  /* This is headings code */
+  
+  .Heading {
+    width: 100%;
+    font-family: Lato;
+    color: white;
+    font-size: 48px;
+    opacity: 1;
+    text-align: center;
+    text-underline-position: under;
+    padding-top: 164px;
+  }
+  
+  /* This is grids code */
+  
+  .grid-container {
+    display: grid;
+    grid-gap: 49px;
+    grid-template-columns: auto auto auto;
+    background-color: transparent;
+    padding-top: 125px;
+    padding-left: 56px;
+    padding-bottom: 69px;
+  }
+  .grid-item {
+    width: 392px;
+    height: 330px;
+    border: 1px solid rgba(22, 97, 182, 0.8);
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(216, 204, 204);
+  }
+  
+  /* This is Footers code */
+  
+  .footer_container2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer_container2 ul li {
+    list-style: none;
+  }
+  .footer-main {
+    height: 70vh;
+    position: relative;
+    bottom: 0px;
+  
+    background: #2374bf;
+  }
+  .footer_container2_main {
+    /* background-color: azure; */
+    /* align-items: flex-start; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer_container2_main ul {
+    /* align-self: flex-start; */
+    /* position: relative; */
+    background-color: blueviolet;
+    /* width: fit-content; */
+    justify-content: start;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_container2_main ul li {
+    /* align-self: flex-start; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    left: 0px;
+  }
+  .footer_container2_main li {
+    list-style: none;
+  }
+  .footer_logo_container {
+    /* background: #501150; */
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  .footer_container2_main .lists {
+    margin-top: -10px;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+    color: white;
+  }
+  .footer_container2_main .lists li {
+    margin-top: 5px;
+    max-width: 250px;
+    font-weight: lighter;
+  }
+  .footer_container2_main h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .links li {
+    border-bottom: 1px solid #2374bf;
+    width: fit-content;
+  }
+  .links li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .connect_with_us {
+    /* background: yellow; */
+    padding-top: 60px;
+  }
+  .connect_with_us h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  }
+  .copyright {
+    padding-top: 20px;
+    /* background: yellow; */
+  }
+  .copyright h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .icons {
+    /* background: blueviolet; */
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+    justify-content: center;
+  }
+  .icons i {
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+  }
+  .fa-check-circle {
+    color: #ffffff;
+  }  
