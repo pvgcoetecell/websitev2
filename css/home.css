@@ -653,3 +653,27 @@ body {
 .fa-check-circle {
   color: #ffffff;
 }
+
+.fab:hover{
+  cursor: pointer;
+}
+
+.fa-facebook:hover{
+  color: blue;
+}
+
+.fa-instagram:hover{
+  color: purple;
+}
+
+.fa-linkedin:hover{
+  color: blue;
+}
+
+.fa-twitter:hover{
+  color: cyan;
+}
+
+.fa-youtube:hover{
+  color: red;
+}
